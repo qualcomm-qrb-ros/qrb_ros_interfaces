@@ -1,10 +1,14 @@
-# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+# Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
 uint8 command
 geometry_msgs/PoseStamped goal
 nav_msgs/Path path
+uint32 goal_id
+uint32[] passing_waypoint_ids  #the follow path must include these passing waypoints
 ---
 bool result
 ---
 geometry_msgs/PoseStamped current_pose
+uint32 passing_waypoint_id
+float32 distance_to_goal

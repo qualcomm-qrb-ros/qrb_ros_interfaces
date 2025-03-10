@@ -1,3 +1,11 @@
-bool start_mapping
+# Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+uint8 LOAD_MAP=1
+uint8 START_MAPPING=2
+uint8 STOP_MAPPING=3
+
+
+uint8 cmd
 ---
 bool result
