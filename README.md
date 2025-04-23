@@ -16,7 +16,7 @@ We provide two ways to use this package.
 <summary>Docker</summary>
 
 #### Setup
-Please follow this [steps](https://github.com/quic-qrb-ros/qrb_ros_docker?tab=readme-ov-file#quickstart) to setup docker env.
+Please follow this [steps](https://github.com/qualcomm-qrb-ros/qrb_ros_docker?tab=readme-ov-file#quickstart) to setup docker env.
 
 
 #### Build
@@ -31,7 +31,7 @@ How to run it.
 <summary>QIRP-SDK</summary>
 
 #### Setup
-Please follow this [steps](https://quic-qrb-ros.github.io/main/getting_started/index.html) to setup qirp-sdk env.
+Please follow this [steps](https://qualcomm-qrb-ros.github.io/main/getting_started/index.html) to setup qirp-sdk env.
 
 
 #### Build
@@ -52,7 +52,7 @@ colcon build --merge-install --cmake-args \
 
 <br>
 
-You can get more details from [here](https://quic-qrb-ros.github.io/main/index.html).
+You can get more details from [here](https://qualcomm-qrb-ros.github.io/main/index.html).
 
 ## Contributing
 
