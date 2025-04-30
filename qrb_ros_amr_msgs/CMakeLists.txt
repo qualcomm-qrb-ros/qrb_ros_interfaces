@@ -31,8 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BatteryInfo.msg"
   "srv/API.srv"
   "srv/SubCmd.srv"
-  "srv/AMRMode.srv"
-  "srv/NarrowArea.srv"
+  "srv/Mapping.srv"
   DEPENDENCIES nav_msgs geometry_msgs std_msgs)
 
 if(BUILD_TESTING)
