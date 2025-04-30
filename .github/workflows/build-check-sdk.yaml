@@ -81,7 +81,7 @@ jobs:
           build_dir=${PERSIST_DIR}/builds/${GITHUB_RUN_ID}
           mkdir -p $build_dir
 
-          tar -cvf ${build_dir}/artifacts.tar ${WORKSPACE}/install ${WORKSPACE}/build ${WORKSPACE}/log
+          tar -cvf ${build_dir}/${{ github.event.repository.name }}-${MACHINE}-${DISTRO}-${QCOM_SELECTED_BSP}-artifacts.tar --transform "s|^${WORKSPACE}/||" -C ${WORKSPACE} install build log
 
           # Instruct our file server to make these files available for download
           url="https://quic-qrt-ros-fileserver-1029608027416.us-central1.run.app/${GITHUB_RUN_ID}/"
