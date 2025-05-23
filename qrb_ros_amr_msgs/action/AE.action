@@ -1,8 +1,0 @@
-# Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
-# SPDX-License-Identifier: BSD-3-Clause-Clear
-
-std_msgs/Empty goal
----
-std_msgs/Empty result
----
-geometry_msgs/PoseStamped current_pose

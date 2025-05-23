@@ -1,7 +1,0 @@
-# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
-# SPDX-License-Identifier: BSD-3-Clause-Clear
-
-# command id is defined in qrb_ros_slam_msgs/msg/CommandCode.msg
-uint8 command_id
----
-qrb_ros_slam_msgs/CommandResponse response

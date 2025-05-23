@@ -1,8 +1,0 @@
-# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
-# SPDX-License-Identifier: BSD-3-Clause-Clear
-
----
-uint32 cpu_count
-uint32 mem_total    # MB
-uint32 swap_total   # MB
-uint64 disk_total   # MB
