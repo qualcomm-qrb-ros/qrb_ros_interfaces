@@ -4,6 +4,7 @@
   <name>qrb_ros_robot_base_msgs</name>
   <version>1.0.0</version>
   <description>QRB ROS robot base msgs</description>
+  <maintainer email="chenghen@qti.qualcomm.com">Chengheng Tan</maintainer>
   <maintainer email="quic_penwang@quicinc.com">Peng Wang</maintainer>
   <maintainer email="quic_laoyi@quicinc.com">Busy Lao</maintainer>
   <license>BSD-3-Clause-Clear</license>
