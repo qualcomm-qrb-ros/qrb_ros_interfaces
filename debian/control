@@ -1,7 +1,7 @@
 Source: ros-jazzy-qrb-ros-vision-msgs
 Section: misc
 Priority: optional
-Maintainer: Xiao Li <xiaolee.qti.qualcomm.com>
+Maintainer: Xiao Li <xiaolee@qti.qualcomm.com>
 Build-Depends: debhelper-compat(=13), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rosidl-default-generators, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-vision-msgs
 Homepage: 
 Standards-Version: 3.9.2
