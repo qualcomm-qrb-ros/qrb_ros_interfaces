@@ -12,7 +12,7 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>action_msgs</depend>
-  <depend>rclcpp_actiion</depend>
+  <depend>rclcpp_action</depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
   <exec_depend>rosidl_default_runtime</exec_depend>
