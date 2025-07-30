@@ -1,0 +1,12 @@
+Source: ros-jazzy-qrb-ros-audio-service-msgs
+Section: misc
+Priority: optional
+Maintainer: yuchpan <yuchpan@qti.qualcomm.com>
+Build-Depends: debhelper-compat (=13), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rosidl-default-generators
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-qrb-ros-audio-service-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime
+Description: QRB ROS Audio Service MSGS
