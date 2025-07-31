@@ -1,0 +1,12 @@
+Source: ros-jazzy-qrb-ros-audio-common-msgs
+Section: misc
+Priority: optional
+Maintainer: Ronghui Zhu <ronghuiz@qti.qualcomm.com>
+Build-Depends: debhelper-compat (= 13), ros-jazzy-action-msgs, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-qrb-ros-audio-common-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-action-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Description: QRB ROS audio common msgs
