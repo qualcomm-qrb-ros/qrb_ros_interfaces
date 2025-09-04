@@ -76,8 +76,8 @@ This section details how to install the `qrb_ros_interfaces` packages. The recom
 
 ### Add Qualcomm IOT PPA repository
 ```shell
-sudo add-apt-repository ppa:ubuntu-qcom-iot/qcom-noble-ppa
-sudo add-apt-repository ppa:ubuntu-qcom-iot/qirp
+sudo add-apt-repository -y ppa:ubuntu-qcom-iot/qcom-ppa
+sudo add-apt-repository -y ppa:ubuntu-qcom-iot/qirp
 sudo apt update
 ```
 
