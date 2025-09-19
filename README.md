@@ -14,7 +14,7 @@
 
 ## Overview
 
-The `qrb_ros_interfaces` is a **collection of ROS 2 interface packages** designed to define and consolidate **custom message, service, and action types** specifically tailored for robust communication within the `QRB ROS` ecosystem. This collection serves as a **centralized repository** for all QRB ROS related communication interfaces, ensuring standardization and consistency across various QRB ROS nodes.
+`qrb_ros_interfaces` is a **collection of ROS 2 interface packages** designed to define and consolidate **custom message, service, and action types** specifically tailored for robust communication within the `QRB ROS` ecosystem. This collection serves as a **centralized repository** for all QRB ROS related communication interfaces, ensuring standardization and consistency across various QRB ROS nodes.
 
 Each package within this collection provides specific interface definitions crucial for enabling seamless interoperability and efficient data exchange between components interacting with QRB hardware or software.
 
@@ -36,7 +36,7 @@ Each package within this collection provides specific interface definitions cruc
 - [📜 License](#-license)
 
 ## 📦 Custom Interface Definitions
-The following table lists the interface packages cureently included in this collection:
+The following table lists the interface packages currently included in this collection:
 
 | Interface Package Name | Status          |Description                       | Interface Types (Contains) |
 |------------------------| ----------------|----------------------------------|-----------------------------|
