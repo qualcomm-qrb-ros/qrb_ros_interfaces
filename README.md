@@ -19,6 +19,8 @@ The `qrb_ros_interfaces` is a **collection of ROS 2 interface packages** designe
 Each package within this collection provides specific interface definitions crucial for enabling seamless interoperability and efficient data exchange between components interacting with QRB hardware or software.
 
 ## 🔎 Table of Contents
+- [Overview](#overview)
+- [🔎 Table of Contents](#-table-of-contents)
 - [📦 Custom Interface Definitions](#-custom-interface-definitions)
 - [🎯 Supported Targets](#-supported-targets)
 - [✨ Installation](#-installation)
@@ -36,18 +38,18 @@ Each package within this collection provides specific interface definitions cruc
 ## 📦 Custom Interface Definitions
 The following table lists the interface packages cureently included in this collection:
 
-| Interface Package Name | Description                       | Interface Types (Contains) |
-|-------------------|----------------------------------------|--------------------------|
-| `qrb_ros_amr_msgs` | QRB AMR ROS msg                       | message, service, action |
-| `qrb_ros_audio_common_msgs` | QRB ROS audio common msgs    | message, action          |
-| `qrb_ros_audio_service_msgs` | QRB ROS Audio Service MSGS  | message, service         |
-| `qrb_ros_navigation_msgs` | QRB Navigation ROS msg         | message, service         |
-| `qrb_ros_robot_base_msgs` | QRB ROS robot base msgs        | message, service         |
-| `qrb_ros_sensor_service_msgs` | QRB ROS Sensor Service Interfaces | message, service  |
-| `qrb_ros_slam_msgs` | Messages ROS Package for QRB SLAM Service call | message, service |
-| `qrb_ros_system_monitor_msgs`  | System monitor interfaces | message, service         |
-| `qrb_ros_tensor_list_msgs` | Msgs for model inference      | message                  |
-| `qrb_ros_vision_msgs` | Messages for computer vision pipelines | message              |
+| Interface Package Name | Status          |Description                       | Interface Types (Contains) |
+|------------------------| ----------------|----------------------------------|-----------------------------|
+| `qrb_ros_amr_msgs` | **Active** | QRB AMR ROS msg                       | message, service, action |
+| `qrb_ros_audio_common_msgs` | **Active** | QRB ROS audio common msgs    | message, action          |
+| `qrb_ros_audio_service_msgs` | **Active** | QRB ROS Audio Service MSGS  | message, service         |
+| `qrb_ros_navigation_msgs` | **Active** | QRB Navigation ROS msg         | message, service         |
+| `qrb_ros_robot_base_msgs` | **Active** | QRB ROS robot base msgs        | message, service         |
+| `qrb_ros_sensor_service_msgs` |  **Deprecated** | QRB ROS Sensor Service Interfaces | message, service  |
+| `qrb_ros_slam_msgs` | **Active** | Messages ROS Package for QRB SLAM Service call | message, service |
+| `qrb_ros_system_monitor_msgs`  | **Active** | System monitor interfaces | message, service         |
+| `qrb_ros_tensor_list_msgs` | **Active** | Msgs for model inference      | message                  |
+| `qrb_ros_vision_msgs` | **Active** | Messages for computer vision pipelines | message              |
 
 
 ## 🎯 Supported Targets
@@ -154,8 +156,9 @@ git clone https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces.git
 
 2. Resolve dependencies
 ```shell
+source /opt/ros/jazzy/setup.sh
 cd ~/ros2_ws
-rosdep install -i --from-path src --rosdistro jazzy -y
+sudo rosdep install -i --from-path src --rosdistro jazzy -y
 ```
 
 3. Build and run
