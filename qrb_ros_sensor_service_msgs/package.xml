@@ -3,7 +3,7 @@
 <package format="3">
   <name>qrb_ros_sensor_service_msgs</name>
   <version>1.0.0</version>
-  <description>QRB ROS Sensor Service Interfaces</description>
+  <description>[**DEPRECATED**]QRB ROS Sensor Service Interfaces</description>
   <maintainer email="quic_penwang@quicinc.com">Peng Wang</maintainer>
   <license>BSD-3-Clause-Clear</license>
 
