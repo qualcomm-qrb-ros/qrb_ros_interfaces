@@ -1,0 +1,13 @@
+ros-jazzy-qrb-ros-slam-msgs (0.1.0) noble; urgency=medium
+
+  * Modify version to 0.1.0.
+
+ -- yating hu <quic_yatihu@quicinc.com>  Tue, 09 Sep 2025 08:56:40 +0000
+
+ros-jazzy-qrb-ros-slam-msgs (0.1.0-0noble) noble; urgency=high
+
+  * first initial for debian release.
+
+ -- yating hu <quic_yatihu@quicinc.com>  Tue, 17 Jun 2025 08:35:06 -0000
+
+

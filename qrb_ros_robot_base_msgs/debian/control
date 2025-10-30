@@ -1,0 +1,12 @@
+Source: ros-jazzy-qrb-ros-robot-base-msgs
+Section: misc
+Priority: optional
+Maintainer: Chengheng Tan <chenghen@qti.qualcomm.com>
+Build-Depends: debhelper-compat (=13), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rosidl-default-generators, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Homepage:https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces/tree/debian/jazzy/noble/qrb_ros_robot_base_msgs
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-qrb-ros-robot-base-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Description: QRB ROS robot base msgs

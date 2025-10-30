@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(qrb_ros_amr_msgs)
+project(qrb_ros_amr_msgs VERSION 1.0.4)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
