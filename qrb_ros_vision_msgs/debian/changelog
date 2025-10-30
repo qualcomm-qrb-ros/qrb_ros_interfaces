@@ -1,0 +1,7 @@
+ros-jazzy-qrb-ros-vision-msgs (1.0.0) noble; urgency=high
+
+  * First release for Debian package.
+
+ -- Xiao Li <xiaolee@qti.qualcomm.com>  Tue, 24 Jun 2025 06:26:32 -0000
+
+

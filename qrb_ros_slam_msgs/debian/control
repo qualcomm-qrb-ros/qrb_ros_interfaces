@@ -1,0 +1,12 @@
+Source: ros-jazzy-qrb-ros-slam-msgs
+Section: misc
+Priority: optional
+Maintainer: yating hu <quic_yatihu@quicinc.com>
+Build-Depends: debhelper-compat (= 13), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-generators
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-qrb-ros-slam-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-runtime
+Description: Messages ROS Package for QRB SLAM Service call

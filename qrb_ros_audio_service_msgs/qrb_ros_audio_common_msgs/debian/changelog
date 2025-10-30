@@ -1,0 +1,7 @@
+ros-jazzy-qrb-ros-audio-common-msgs (1.0.0) noble; urgency=high
+
+  * First release for Debian package.
+
+ -- Ronghui Zhu <ronghuiz@qti.qualcomm.com>  Tue, 29 Jul 2025 13:02:04 -0000
+
+

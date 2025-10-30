@@ -1,0 +1,12 @@
+Source: ros-jazzy-qrb-ros-navigation-msgs
+Section: misc
+Priority: optional
+Maintainer: xiaowz <quic_xiaowz@quicinc.com>
+Build-Depends: debhelper-compat(=13), ros-jazzy-ament-cmake, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-qrb-ros-navigation-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Description: QRB Navigation ROS msg
