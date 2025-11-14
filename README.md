@@ -97,6 +97,7 @@ sudo apt install ros-jazzy-qrb-ros-tensor-list-msgs
 ## 🚀 Usage
 
 ```shell
+source /opt/ros/jazzy/setup.sh
 ros2 interface package qrb_ros_tensor_list_msgs
 ```
 Output:
