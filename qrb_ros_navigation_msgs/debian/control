@@ -2,7 +2,7 @@ Source: ros-jazzy-qrb-ros-navigation-msgs
 Section: misc
 Priority: optional
 Maintainer: xiaowz <quic_xiaowz@quicinc.com>
-Build-Depends: debhelper-compat(=13), ros-jazzy-ament-cmake, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs
+Build-Depends: debhelper-compat(=13), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs
 Homepage: 
 Standards-Version: 3.9.2
 
