@@ -1,0 +1,10 @@
+name: QIRP Build Test
+
+on: [push, pull_request]
+
+jobs:
+  qirp-sdk-build-checker:
+    uses: ./.github/workflows/qirp-build-checker.yml
+    # with:
+    #   dependencies: qualcomm-qrb-ros/qrb_ros_interfaces
+    #   colcon_args:  --cmake-clean-first
