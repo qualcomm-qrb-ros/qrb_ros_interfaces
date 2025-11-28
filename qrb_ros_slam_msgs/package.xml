@@ -7,7 +7,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>qrb_ros_slam_msgs</name>
-  <version>0.1.0</version>
+  <version>1.2.3</version>
   <description>Messages ROS Package for QRB SLAM Service call</description>
   <maintainer email="quic_yatihu@quicinc.com">yating hu</maintainer>
   <maintainer email="quic_xkuo@quicinc.com">xkuo</maintainer>
