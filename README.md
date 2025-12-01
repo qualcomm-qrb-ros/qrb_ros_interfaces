@@ -97,6 +97,7 @@ sudo apt install ros-jazzy-qrb-ros-tensor-list-msgs
 ## 🚀 Usage
 
 ```shell
+source /opt/ros/jazzy/setup.sh
 ros2 interface package qrb_ros_tensor_list_msgs
 ```
 Output:
@@ -138,10 +139,12 @@ This section provides instructions for building the `qrb_ros_interfaces` package
 ### Prerequisites
 >Refer to [Prerequisites](#prereq) section for installation instructions.
 
-### Dependencies
-Install dependencies `ros-dev-tools`:
+#### rosdep installation
+`rosdep` is the recommended command-line tool in the ROS ecosystem for idenifying and installing package dependencies required for building or running a package.
 ```shell
 sudo apt install ros-dev-tools
+sudo rosdep init
+rosdep update
 ```
 
 ### Build Steps
@@ -158,7 +161,7 @@ git clone https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces.git
 ```shell
 source /opt/ros/jazzy/setup.sh
 cd ~/ros2_ws
-sudo rosdep install -i --from-path src --rosdistro jazzy -y
+rosdep install -i --from-path src --rosdistro jazzy -y
 ```
 
 3. Build and run
