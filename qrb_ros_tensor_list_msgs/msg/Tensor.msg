@@ -13,6 +13,7 @@ string name
 # 5: "float16"
 # 6: "uint32"
 # 7: "uint64"
+# 8: "int32"
 int32 data_type
 
 # shape of tensor
