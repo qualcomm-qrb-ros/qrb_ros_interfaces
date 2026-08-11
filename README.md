@@ -40,7 +40,6 @@ The following table lists the interface packages currently included in this coll
 | Interface Package Name | Status          |Description                       | Interface Types (Contains) |
 |------------------------| ----------------|----------------------------------|-----------------------------|
 | `qrb_ros_amr_msgs` | **Active** | QRB AMR ROS msg                       | message, service, action |
-| `qrb_ros_audio_common_msgs` | **Active** | QRB ROS audio common msgs    | message, action          |
 | `qrb_ros_audio_service_msgs` | **Active** | QRB ROS Audio Service MSGS  | message, service         |
 | `qrb_ros_navigation_msgs` | **Active** | QRB Navigation ROS msg         | message, service         |
 | `qrb_ros_robot_base_msgs` | **Active** | QRB ROS robot base msgs        | message, service         |
