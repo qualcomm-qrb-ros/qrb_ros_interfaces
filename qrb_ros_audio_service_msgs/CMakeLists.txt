@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(qrb_ros_audio_service_msgs VERSION 1.0.0)
+project(qrb_ros_audio_service_msgs VERSION 2.0.1)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
@@ -15,6 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   msg/AudioInfo.msg
+  msg/AudioData.msg
   srv/AudioRequest.srv
 )
 
