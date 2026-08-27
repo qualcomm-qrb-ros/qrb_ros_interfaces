@@ -4,13 +4,14 @@ on:
     push:
     pull_request:
 
-env:
-    ROS_WS: ${{ github.workspace }}/ros2_ws/
-    ROS_SRC: ${{ github.workspace }}/ros2_ws/src
-
 jobs:
-  ros-build:
-    uses: qualcomm-qrb-ros/qrb_ros_gh_actions/.github/workflows/ubuntu-build.yml@main
-    # with:
-    #   # QRB ROS dependency
-    #   dependencies: "qualcomm-qrb-ros/qrb_ros_transport qualcomm-qrb-ros/lib_mem_dmabuf"
+  ros-build-jazzy:
+    uses: qualcomm-qrb-ros/qrb_ros_gh_actions/.github/workflows/ubuntu-build.yml@test/lyrical-ci-preview
+    secrets: inherit
+    # ros-distro defaults to jazzy, no explicit with needed
+
+  ros-build-lyrical:
+    uses: qualcomm-qrb-ros/qrb_ros_gh_actions/.github/workflows/ubuntu-build.yml@test/lyrical-ci-preview
+    secrets: inherit
+    with:
+      ros-distro: lyrical
