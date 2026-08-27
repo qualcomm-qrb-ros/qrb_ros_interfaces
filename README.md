@@ -66,7 +66,7 @@ The following table lists the interface packages currently included in this coll
 ---
 
 ## ✨ Installation
-This section details how to install the `qrb_ros_interfaces` packages. The recommended approach for most users is to install the packages from the Qualcomm PPA repository(if available in QCOM PPA).  
+This section details how to install the `qrb_ros_interfaces` packages. Packages are available from the Qualcomm PPA repository where available. For the latest release, consider [building from source](#-build-from-source).
 
 ### <a name="prereq"></a>  Prerequisites
 - [Install ROS 2 Jazzy](https://docs.ros.org/en/jazzy/index.html)
@@ -89,6 +89,7 @@ sudo apt install ros-jazzy-qrb-ros-tensor-list-msgs
 >**Note:**
 >- The exact package names (`ros-<distro>-<package-name>`) are determined during the release process.
 >- If you encounter issues finding a package, it might not yet be released as a binary or the repository might not be correctly added. Use `apt search <part_of_package_name>` (e.g., `apt search ros-jazzy-qrb-ros-vision-msgs`) to discover available packages.
+>- PPA packages are periodically synced from GitHub releases and may not reflect the latest version. If you need the most recent interfaces, build from source instead.
 
 ## 🚀 Usage
 
@@ -105,6 +106,8 @@ qrb_ros_tensor_list_msgs/msg/TensorList
 ```shell
 ros2 interface show qrb_ros_tensor_list_msgs/msg/Tensor
 ```
+>**Note:** The output below reflects the latest source release. If installed from PPA, the output may differ depending on the synced version.
+
 Output:
 ```shell
 # Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
