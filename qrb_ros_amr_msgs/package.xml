@@ -5,7 +5,7 @@
   <version>1.0.0</version>
   <description>QRB AMR ROS msg</description>
 
-  <license>BSD-3-Clause-Clear</license>
+  <license>BSD-3-Clause</license>
 
   <author email="quic_zhanlin@quicinc.com">zhanlin</author>
   <maintainer email="quic_xiaowz@quicinc.com">xiaowz</maintainer>
