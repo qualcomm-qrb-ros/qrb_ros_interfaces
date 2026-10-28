@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
   Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
-  SPDX-License-Identifier: BSD-3-Clause-Clear
+  SPDX-License-Identifier: BSD-3-Clause
 -->
 
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
@@ -11,7 +11,7 @@
   <description>Messages ROS Package for QRB SLAM Service call</description>
   <maintainer email="quic_yatihu@quicinc.com">yating hu</maintainer>
   <maintainer email="quic_xkuo@quicinc.com">xkuo</maintainer>
-  <license>BSD-3-Clause-Clear</license>
+  <license>BSD-3-Clause</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

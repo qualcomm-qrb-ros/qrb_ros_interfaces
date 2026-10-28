@@ -5,7 +5,7 @@
   <version>1.0.0</version>
   <description>Messages for computer vision pipelines.</description>
   <maintainer email="xiaolee@qti.qualcomm.com">Xiao Li</maintainer>
-  <license>BSD-3-Clause-Clear</license>
+  <license>BSD-3-Clause</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
