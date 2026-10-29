@@ -43,7 +43,6 @@ The following table lists the interface packages currently included in this coll
 | `qrb_ros_audio_service_msgs` | **Active** | QRB ROS Audio Service MSGS  | message, service         |
 | `qrb_ros_navigation_msgs` | **Active** | QRB Navigation ROS msg         | message, service         |
 | `qrb_ros_robot_base_msgs` | **Active** | QRB ROS robot base msgs        | message, service         |
-| `qrb_ros_sensor_service_msgs` |  **Deprecated** | QRB ROS Sensor Service Interfaces | message, service  |
 | `qrb_ros_slam_msgs` | **Active** | Messages ROS Package for QRB SLAM Service call | message, service |
 | `qrb_ros_system_monitor_msgs`  | **Active** | System monitor interfaces | message, service         |
 | `qrb_ros_tensor_list_msgs` | **Active** | Msgs for model inference      | message                  |
